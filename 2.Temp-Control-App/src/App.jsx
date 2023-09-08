@@ -11,7 +11,7 @@ const App = () => {
    
   let decrementValue = () => {
     if (tempValue >= 1){  setTempValue(prevValue=> prevValue-1)}
-    if (tempValue <15) {setTempColor('cold')}
+    if (tempValue <=15) {setTempColor('cold')}
   };
        
 	return (
