@@ -17,11 +17,18 @@ const users = [
 
 function App (){
 const [searchItem, setSearchItem] = useState('');
+const [filteredUsers, setFilteredUsers] = useState(users);
 
 const handleInputChange = (e) => {
   
   const searchTerm = e.target.value;
     setSearchItem(searchTerm);
+
+  const filteredItems = users.filter((user) =>
+  user.firstName.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  setFilteredUsers(filteredItems);
 }
 
 return(
@@ -33,7 +40,7 @@ return(
     placeholder="Type to search"
     />
     <ul>
-    {users.map(user => <li key={user.id}>{user.firstName}</li>)}
+    {filteredUsers.map(user => <li key={user.id}>{user.firstName}</li>)}
     </ul>
   </div>
 )
