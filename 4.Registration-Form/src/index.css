@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+  background: #f7f7f7;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 360px;
+  background-color: #fff;
+  margin: auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.12);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.success-message {
+  font-family: "Roboto", sans-serif;
+  background-color: #3f89f8;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #f44336;
+  margin-bottom: 15px;
+}
+
+input {
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.error {
+  border-color: #f44336;
+}
+
+button {
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+  transition: background 0.3s;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background: #ccc;
+}
