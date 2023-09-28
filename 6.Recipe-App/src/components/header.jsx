@@ -39,7 +39,7 @@ function Header() {
             <input
                 type="text"
                 value={inputValue} 
-                className="text-black border-none outline-none text-base font-bold w-full p-2"
+                className="text-black border-none outline-none text-base font-bold w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/4"
                 onChange={(e) => setinputValue(e.target.value)}
                 placeholder="Search for recipe... " />
           </form>
