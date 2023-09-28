@@ -27,7 +27,7 @@ function RecipeCard({ recipeList }) {
           ))
         ) : ( 
           <div className="text-2xl font-bold text-black-300 p-0.1">
-            <img className="h-screen w-screen" src="/src/assets/default1.jpg" alt="Pizza" />
+            <img className="h-screen w-screen" src="/public/assets/default1.jpg" alt="Pizza" />
           </div>
         )}
       </div>
