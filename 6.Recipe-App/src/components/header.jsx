@@ -28,7 +28,7 @@ function Header() {
 
   return (
     <div name='container' className='flex flex-col'>
-      <div name='header-section' className='text-white bg-gray-800 flex items-center justify-between w-full p-5 text-2xl font-bold shadow-md'>
+      <div name='header-section' className=' sticky top-0 z-10 text-white bg-gray-800 flex items-center justify-between w-full p-5 text-2xl font-bold shadow-md'>
         <div name='appnamecontainer' className='flex items-center'>
           <img src='https://www.svgrepo.com/show/356620/pizza-slice-02.svg' className='w-16 h-16 flex mr-2' alt='Pizza'/>
           Recipe Finder
@@ -39,7 +39,7 @@ function Header() {
             <input
                 type="text"
                 value={inputValue} 
-                className="text-black border-none outline-none text-base font-bold w-full" 
+                className="text-black border-none outline-none text-base font-bold w-full p-2"
                 onChange={(e) => setinputValue(e.target.value)}
                 placeholder="Search for recipe... " />
           </form>

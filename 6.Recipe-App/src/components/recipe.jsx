@@ -27,7 +27,7 @@ function RecipeCard({ recipeList }) {
           ))
         ) : ( 
           <div className="text-2xl font-bold text-black-300 p-0.1">
-            <img className="h-screen w-screen" src="https://images.unsplash.com/photo-1505682750263-f3f9e519c565?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Pizza" />
+            <img className="h-screen w-screen " src="https://images.unsplash.com/photo-1505682750263-f3f9e519c565?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Pizza" />
           </div>
         )}
       </div>
