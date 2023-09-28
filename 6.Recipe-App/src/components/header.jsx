@@ -30,11 +30,11 @@ function Header() {
     <div name='container' className='flex flex-col'>
       <div name='header-section' className='text-white bg-gray-800 flex items-center justify-between w-full p-5 text-2xl font-bold shadow-md'>
         <div name='appnamecontainer' className='flex items-center'>
-          <img src='/public/assets/pizza.svg' className='w-16 h-16 flex mr-2' alt='Pizza'/>
+          <img src='https://www.svgrepo.com/show/356620/pizza-slice-02.svg' className='w-16 h-16 flex mr-2' alt='Pizza'/>
           Recipe Finder
         </div>
         <div name='search-container' className='flex items-center bg-white p-2 rounded w-1/2'>
-          <img src="/public/assets/search.svg" alt="Search Icon" className="w-6 h-6 mr-2" />
+          <img src="https://www.svgrepo.com/download/522443/search.svg" alt="Search Icon" className="w-6 h-6 mr-2" />
           <form onSubmit={handleSumbit}>
             <input
                 type="text"
