@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name":"Watch",
+        "price":1000,
+        "imgUrl":"https://images.pexels.com/photos/3829441/pexels-photo-3829441.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+        "id":2,
+        "name":"Shoes",
+        "price":1500,
+        "imgUrl":"https://images.pexels.com/photos/19090/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id":3,
+        "name":"Football",
+        "price":800,
+        "imgUrl":"https://images.unsplash.com/photo-1616514169928-a1e40c6f791c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id":4,
+        "name":"Glasses",
+        "price":250,
+        "imgUrl":"https://images.unsplash.com/photo-1618677366787-9727aacca7ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1372&q=80"
+    },
+    {
+        "id":5,
+        "name":"Water bottle",
+        "price":200,
+        "imgUrl":"https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+    },
+    {
+        "id":6,
+        "name":"Mug",
+        "price":350,
+        "imgUrl":"https://images.unsplash.com/photo-1520485521983-bfaa0bc6c80e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+    }
+]
