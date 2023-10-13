@@ -2,7 +2,7 @@ import { useState } from "react"
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Products from "./pages/products";
+import Products from "./pages/Products";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 import Cart from "./components/Cart";
 import ShoppingCart from "./components/ShoppingCart";
