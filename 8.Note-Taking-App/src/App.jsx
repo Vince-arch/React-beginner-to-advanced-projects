@@ -1,8 +1,6 @@
 import Header from "./Components/Header";
 import SearchBar from "./Components/SearchBar";
 import NotesList from './Components/NotesList'
-import { useState } from "react";
-import {nanoid} from 'nanoid'
 import { NoteProvider } from "./Components/NoteContext";
 
 function App() {

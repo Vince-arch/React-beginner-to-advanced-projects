@@ -36,8 +36,13 @@ const addNote = (text)=>{
     setNotes(newNotes)
 };
 
+const deleteNote = (id) =>{
+    const newNotes = notes.filter(note => note.id !==id)
+    setNotes(newNotes)
+}
+
 return  (
-    <NoteContext.Provider value={{notes, addNote}}>
+    <NoteContext.Provider value={{notes, addNote,deleteNote,setNotes}}>
         {children}
     </NoteContext.Provider>
 )
