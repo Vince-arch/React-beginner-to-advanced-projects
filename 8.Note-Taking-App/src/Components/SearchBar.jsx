@@ -1,11 +1,9 @@
-import { useState } from "react";
 import { TextField } from "@mui/material";
 
-function SearchBar(){
-    const [searchTerm, setSearchTerm] = useState('');
-
+function SearchBar({ searchNote, handleSearchNote}){
+   
     const handleSearch = (e) => {
-        setSearchTerm(e.target.value);
+        handleSearchNote(e.target.value);
     };
 
     return(
@@ -15,8 +13,8 @@ function SearchBar(){
       variant="outlined"
       fullWidth
       size="small"
-      className=" p-2 rounded bg-gray-200" 
-      value={searchTerm}
+      className="p-2 rounded bg-gray-200" 
+      value={searchNote}
       onChange={handleSearch}
     />
     </div>

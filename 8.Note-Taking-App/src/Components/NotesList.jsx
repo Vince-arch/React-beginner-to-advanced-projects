@@ -19,6 +19,7 @@ return(
       handleDeleteNote={handleDeleteNote}
       />
    ))}
+   
    <AddNote handleAddNote={addNote}/>
  </div>
 )}
