@@ -1,18 +1,21 @@
-import { useState } from 'react'
+import { React, useState } from 'react'
 import Button from "./components/Button"
 
 function App(){
   const [count, setCount] = useState(0);
 
-  let incrementCount = ()=>
-  setCount(prevCount => prevCount + 1);
+  let incrementCount = () => {
+    setCount(prevCount => prevCount + 1);    
+  }
 
-  let decrementCount = () =>{
-  if (count > 0){
-  setCount(prevCount => prevCount - 1)
-  }}
-  let resetCount = () =>
+  let decrementCount = () => {
+    if (count >0){
+    setCount(prevCount => prevCount - 1)
+    }}
+
+  let resetCount = () => {
     setCount(0);
+  }
 
   return(
     <div style={{textAlign: 'center', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
